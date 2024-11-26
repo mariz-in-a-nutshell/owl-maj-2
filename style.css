@@ -1,0 +1,96 @@
+
+/* ----- DÉBUT CALENDRIER ----- */
+
+.calendar_modify {display:flex;justify-content:space-between;align-items:center;}
+
+/* Titre */
+
+.calendar_modify .page-title {font-family:'Bogram',sans-serif;font-size:80px;color:var(--main-purple);}
+.sub-header:after {display:none!important;}
+
+/* Description */
+
+.desc_calendar {color:var(--main-text-beige);padding:10px 0;line-height:1.2em;font-size:20px;font-family:'Archivo', sans-serif;}
+.desc_calendar span {color:var(--main-purple);font-weight:700;}
+
+/* Corps */
+
+#calendar.panel {background-color:transparent;color:var(--main-text-beige);font-family:'Archivo',sans-serif;}
+.quick-nav-topics a svg {width:20px;height:20px;color:var(--main-light-beige);}
+
+/* Jour semaine */
+
+#calendar.panel table {border-collapse:separate;border-spacing:5px;}
+
+#calendar.panel table thead tr th {background-color:var(--main-purple);border-radius:6px;color:var(--main-bg-color);font-weight:700;}
+
+/* Dates rps */
+
+#calendar.panel tbody td.row2,#calendar.panel tbody td.row2:hover{background-color: var(--bg-dark);border-radius:6px;}
+.calendar-day-date, .calendar-day-date a {text-align: center;color: var(--main-purple)!important;border-bottom: 1px solid var(--main-purple);text-decoration:none;}
+#calendar tbody a.genmed {color:var(--main-text-beige)!important;}
+#calendar tbody a.genmed:before {content:">";color:var(--main-purple);padding-right:5px;}
+#calendar.panel tbody td.row2 img {display:none;}
+
+/* ----- FIN CALENDRIER ----- */
+
+/* ----- DÉBUT LISTE DES MEMBRES ----- */
+
+/* Titre */
+
+.titMEMLIST_OWL, .tit_faackers h2 {font-family:'Bogram', sans-serif;color:var(--main-purple);font-size:80px;font-weight: 400;} 
+
+/* Recherche */
+
+.search_memlist_OWL {width:100%!important;margin-bottom:50px;}
+.search_memlist_OWL form {width: -webkit-fill-available;}
+.search_memlist_OWL .panel {width:100%;justify-content: space-between;align-items:center;margin:0;}
+.search_memlist_OWL .panel p {color: var(--main-text-beige);}
+.search_memlist_OWL .panel h2.h3 {border: none;color: var(--main-purple);font-family: 'Archivo', sans-serif;margin:0;padding:0;}
+
+/* Corps global */
+
+.cor_MEMLIST_OWL{display:flex;flex-wrap:wrap;gap:20px;}
+
+/* Admin */
+
+.membre_OWL#Admin {background: var(--red-opacity);}
+.membre_OWL#Admin .gauche_membre_OWL, .membre_OWL#Admin .droite_membre_OWL {border:1px solid var(--main-red);}
+.membre_OWL#Admin .pseudo_membre_OWL span, .membre_OWL#Admin .pseudo_membre_OWL {color:var(--main-red)!important;}
+.membre_OWL#Admin .more_membre_OWL span:first-of-type {border-left:1px solid var(--main-red);}
+.membre_OWL#Admin .admin_membre_OWL {color:var(--main-red);font-size:12px;font-style:italic;display:inline-block;margin-bottom: -10px;}
+.admin_membre_OWL {display:none;}
+
+/* Un membre */
+
+.membre_OWL, .search_memlist_OWL {display:flex;background: var(--purple-opacity);padding: 10px;border-radius: 10px;width:590px;gap:10px;}
+
+/* Gauche */
+
+.gauche_membre_OWL, .droite_membre_OWL, .search_memlist_OWL .panel  {display:flex;padding: 10px;border-radius: 6px;background: var(--main-bg-color);border: 1px solid var(--main-purple);gap: 20px;box-shadow: 0px 0px 6px 3px rgba(0, 0, 0, 0.57);}
+.gauche_membre_OWL {width: -webkit-fill-available;}
+
+/* Avatar */
+
+.avatar_membre_OWL {width:160px;height:175px;overflow:hidden;border-radius:6px;}
+.avatar_membre_OWL img {width:100%;height:auto;}
+
+/* Informations */
+
+.infos_membre_OWL {display:flex;gap:10px;flex-direction:column;justify-content:center;}
+
+/* Pseudo */
+
+.pseudo_membre_OWL span, .pseudo_membre_OWL {font-family:'Wosker',sans-serif;font-size:20px;color:var(--main-purple)!important;}
+.pseudo_membre_OWL span strong {font-weight:400;}
+
+.more_membre_OWL {display:flex;gap:10px;}
+.more_membre_OWL span {color:var(--main-light-beige);font-family:'Archivo'; sans-serif;font-size:12px;background:var(--bg-dark);padding:5px 10px;border-radius:3px;}
+
+.more_membre_OWL span:first-of-type {border-left:1px solid var(--main-purple);}
+
+/* Droite */
+
+.droite_membre_OWL {flex-direction:column;justify-content:center;}
+
+/* ----- FIN LISTE DES MEMBRES ----- */
