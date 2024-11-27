@@ -46,7 +46,7 @@
     transition: all 0.35s;
     background: var(--bg-dark);
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 10px;
   }
 
   /* Contenu d'un onglet actif */
