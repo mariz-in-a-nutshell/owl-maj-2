@@ -47,6 +47,7 @@
     background: var(--bg-dark);
     border-radius: 5px;
     padding: 10px;
+    height: fit-content;
   }
 
   /* Contenu d'un onglet actif */
@@ -56,3 +57,21 @@
    transition: all 0.35s;
   }
 }
+
+/*Nombre de membre */ 
+.nbrmem_ORG {text-align:center;font-size:20px;color:var(--main-purple);margin:20px;font-weight:700;}
+
+/* Corps Tabs */
+.corTABS_ORG {display:flex;gap:20px;background:var(--main-bg-color);border-radius:6px;padding:10px;} 
+
+/* Image */
+.img_ORG {width:300px;height:250px;overflow:hidden;border-radius:6px;background-size:cover!important;} 
+
+/* Infos */
+.info_ORG {width: -webkit-fill-available;padding-top:10px;} .desc_ORG {padding:10px;}
+
+/* Nom */ 
+.name_ORG {line-height:1em;font-size:26px;font-family:'Wosker',sans-serif;color:var(--main-red);} 
+
+/* Rôle */ 
+.role_ORG {font-style:italic;color:var(--main-red);}
