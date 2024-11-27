@@ -1531,6 +1531,304 @@ margin:0 3px;
 
 /*** FIN FAACKERS ***/
 
+/*** DEBUT CATEGORIES ***/
+
+/* Forums rouges */
+
+/*#Annuaire_20des_20habitants.for_catOWL, #R_E9seau_20social.for_catOWL,*/ 
+.base_catOWL:nth-of-type(4n+1) .for_catOWL{
+background-color:var(--red-opacity);
+}
+
+/*#Annuaire_20des_20habitants > .blocGEN_catOWL, #R_E9seau_20social > .blocGEN_catOWL, #Annuaire_20des_20habitants .vavaFOR_catOWL, #R_E9seau_20social .vavaFOR_catOWL, */
+.base_catOWL:nth-of-type(4n+1) .blocGEN_catOWL, .base_catOWL:nth-of-type(4n+1) .vavaFOR_catOWL{
+border:1px solid var(--main-red);
+}
+
+/*#Annuaire_20des_20habitants a.titFOR_catOWL, #R_E9seau_20social a.titFOR_catOWL,*/
+.base_catOWL:nth-of-type(4n+1) a.titFOR_catOWL{
+color:var(--main-red)!important;
+}
+
+.tit_catOWL:nth-of-type(4n) h2 {
+  color:var(--main-red);
+}
+
+/*#Annuaire_20des_20habitants .sousFOR_catOWL a, #R_E9seau_20social .sousFOR_catOWL a,*/
+.base_catOWL:nth-of-type(4n+1) .sousFOR_catOWL a{
+color:var(--main-red);
+border:1px solid var(--main-red);
+}
+
+/*#Annuaire_20des_20habitants .sousFOR_catOWL a:hover , #R_E9seau_20social .sousFOR_catOWL a:hover,*/
+.base_catOWL:nth-of-type(4n+1) .sousFOR_catOWL a:hover{
+  background-color:var(--main-red);
+  color:var(--main-bg-color);
+}
+
+.base_catOWL:nth-of-type(4n+1) .statFOR_catOWL > div{
+color:var(--main-red);
+}
+
+.base_catOWL:nth-of-type(4n+1) .sujIMG_catOWL {
+  background:url('https://zupimages.net/up/24/46/lbvv.png') no-repeat;
+    background-size:100% auto;
+}
+
+.base_catOWL:nth-of-type(4n+1) .messIMG_catOWL {
+  background:url('https://zupimages.net/up/24/46/ufgx.png') no-repeat;
+  background-size:100% auto;
+}
+
+/* Catégories Lieux */
+
+.base_catOWL:nth-of-type(5n+1) {
+flex-direction:column;
+}
+
+.base_catOWL:nth-of-type(5n+1) .for_catOWL {
+width:100%;flex-direction:row;gap: 10px;
+}
+
+.base_catOWL:nth-of-type(5n+1) .blocGEN_catOWL {
+width:70%;
+}
+
+.base_catOWL:nth-of-type(5n+1) .repFOR_catOWL {
+padding:0;
+}
+
+.base_catOWL:nth-of-type(5n+1) .vavaFOR_catOWL {
+height:190px;
+}
+
+.base_catOWL:nth-of-type(5n+1) .lieux_repcatOWL {
+flex-direction:column;width: 200px;
+}
+
+.base_catOWL:nth-of-type(5n+1) .reponse_catOWL {
+width:100%;
+  height:80px;
+}
+
+.base_catOWL:nth-of-type(5n+1) .statFOR_catOWL {
+gap:10px; width:100%;height:auto;
+}
+
+.base_catOWL:nth-of-type(5n+1) .sousFOR_catOWL {
+width:100%;
+}
+
+
+/* Titre Catégorie */
+.tit_catOWL h2, .tit_faackers h2, .tit_catOWL h1 {
+  padding: 68px 0 20px 0;
+}
+
+/* Base catégories */
+
+.base_catOWL {
+  display:flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:space-between;
+  gap:25px 10px;
+}
+
+/* Forums des catégories */
+
+.for_catOWL {
+  width:49%;
+  background-color:var(--purple-opacity);
+  border-radius:8px;
+  padding:10px;
+  display:flex;
+  flex-direction:column;
+}
+
+/* Image nouveau message */
+.newIMG_catOWL {
+  position:absolute;
+  right:10px;
+  top:10px;
+}
+
+/* Bloc descriptions & sous-forums */
+
+.blocGEN_catOWL {
+  background-color:var(--main-bg-color);
+  box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.57);
+  border:1px solid var(--main-purple);
+  padding:6px;
+  border-radius:6px;
+  font-family:'Archivo',sans-serif;
+  font-size:14px;
+  font-weight:300;
+  position:relative;
+}
+
+/* Titre forum */
+
+.titFOR_catOWL {
+  color:var(--main-purple)!important;
+  font-family:'Wosker',sans-serif;
+  font-size:30px;
+   white-space: nowrap;
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  display:inline-block;
+}
+
+.titFOR_catOWL img {
+  padding:10px 10px 0 10px;
+  height:35px;width:auto;
+}
+
+/* Description forum */
+
+.descFOR_catOWL, .desc_profil_ntm {
+  color:var(--main-text-beige);
+  height:51px;
+  padding:0 10px;
+  line-height:1.2em;
+  overflow:auto;
+  font-size:14px;
+}
+
+/* Liens rapides - sous-forums */
+
+.sousFOR_catOWL {
+  padding:0 10px 5px 10px;
+  overflow-x:auto;
+  overflow-y:hidden;
+  width:inherit;
+  height:45px;
+  white-space: nowrap;
+}
+
+.sousFOR_catOWL a {
+  display:inline-block;
+  margin:0 2px;
+  padding:10px;
+  border-radius:6px;
+  color:var(--main-purple);
+  border:1px solid var(--main-purple);
+  font-size:12px;
+  transition:all ease 0.5s;
+  font-family:'Archivo',sans-serif;
+  font-weight:700;
+}
+
+.sousFOR_catOWL a:hover {
+  color:var(--main-bg-color);
+  border:1px solid transparent;
+  background-color:var(--main-purple);
+}
+
+/* BLOC REPONSE */
+
+.repFOR_catOWL {
+  display:flex;
+  padding:10px 0 0 0;
+  gap:10px;
+}
+
+/* AVATAR */
+
+.vavaFOR_catOWL {
+  width:178px;
+  height:104px;
+  border:1px solid var(--main-purple);
+  overflow:hidden;
+  border-radius:6px;
+}
+
+.vavaFOR_catOWL > img {
+  width:100%;
+  margin-top:-50px;
+  height:auto;
+}
+
+.lieux_repcatOWL {
+  display:flex;gap:10px;width: 67%;}
+
+/* REPONSE */
+
+.reponse_catOWL {
+  border-radius:6px;
+  padding:10px;
+  background:var(--main-bg-color);
+  height:104px;
+  position:relative;
+  font-family:'Archivo',sans-serif;
+  font-size:14px;
+  color:var(--main-light-beige);
+  width:40%;
+  /*width:158px*/
+}
+
+.reponse_catOWL:before {
+ display : inline-block;
+ height : 0;
+ width : 0;
+ border-top : 5px solid transparent;
+ border-right : 8px solid var(--main-bg-color);
+ border-bottom : 5px solid transparent;
+  content:'';
+  position:absolute;
+  left:-8px;
+}
+
+.reponse_catOWL a{
+color:var(--main-light-beige)!important;
+      display: inline-block;
+    max-width: 78%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  margin-right:5px;
+}
+
+/* Statistiques */
+
+.statFOR_catOWL {
+  display:flex;
+  height:104px;
+  justify-content:space-between;
+  flex-direction:column;/*width:37%;*/width:60%;
+}
+
+.statFOR_catOWL > div {
+  border-radius:6px;
+  padding:10px;
+  background:var(--main-bg-color);
+  width:100%;
+  text-align:center;
+  font-family:'Archivo',sans-serif;
+  font-size:14px;
+  color:var(--main-purple);
+}
+
+/* Stats */
+
+.statFOR_catOWL > div > span {
+  display:inline-block;
+  background-size:100% auto;
+  width:25px;height:25px;
+  vertical-align:middle;
+  margin-right:15px;
+}
+
+.sujIMG_catOWL {
+  background:url('https://zupimages.net/up/24/45/bau3.png') no-repeat;
+}
+
+.messIMG_catOWL {
+  background:url('https://zupimages.net/up/24/45/57wl.png') no-repeat;
+}
+
+/*** FIN CATEGORIES ***/
 
 /*********** MODIFICATIONS CSS MESSENGER ***********/
 
