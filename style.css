@@ -190,7 +190,7 @@ input[type="submit"][class^="ion-"]:before, .button[class^="ion-"]:before, .butt
 
 /* Titre */
 
-h1.profil_tit_OWL {}
+h1.page-title.profil_tit_OWL, .tit_catOWL h2, .tit_faackers h2, .tit_catOWL h1 {font-family:'Bogram',sans-serif!important;font-size:100px!important;color:var(--main-purple)!important;}
 
 /* Corps */
 
@@ -267,8 +267,8 @@ fastlink_profil_OWL {display:flex;justify-content:space-between;align-items:cent
 
 /* Description */
 
-.desc_calendar {color:var(--main-text-beige);padding:10px 0;line-height:1.2em;font-size:20px;font-family:'Archivo', sans-serif;}
-.desc_calendar span {color:var(--main-purple);font-weight:700;}
+.desc_calendar, .desc_profil {color:var(--main-text-beige);padding:10px 0;line-height:1.2em;font-size:20px;font-family:'Archivo', sans-serif;}
+.desc_calendar span, .desc_profil span {color:var(--main-purple);font-weight:700;}
 
 /* Corps */
 
