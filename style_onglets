@@ -1,0 +1,58 @@
+/* Conteneurs des onglets */
+.tabs {
+  display: grid;
+  grid-template-rows: repeat(2, max-content);
+  grid-template-columns: repeat(30, minmax(min-content, auto));
+  gap: 5px;
+  margin: 0 auto;
+
+  /* Ne pas retirer */
+  & > br,
+  input[name*="tab"] {display: none;}
+
+  /* Onglet */
+  label[for*="tab"] {
+    grid-row: 1;
+    display: block;
+    text-transform: uppercase;
+    color: var(--contrastLighter);
+    font-size: 12px;
+    padding: 2px 10px;
+    text-wrap: nowrap;
+    cursor: pointer;
+    top: 0;
+    transition: all 0.25s;
+  }
+
+  /* Onglet au survol */
+  label[for*="tab"]:hover {
+    color: var(--contrast);
+  }
+
+  /* Onglet actif */
+  input[name*="tab"]:checked + label[for*="tab"] {
+    background: var(--neutralDark);
+    border-radius: 5px;
+    color: var(--contrast);
+    transition: all 0.35s;
+  }
+
+   /* Contenu d'un onglet */
+  .tab-content {
+    grid-row: 2;
+    grid-column: 1 / -1;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.35s;
+    background: var(--neutralDark);
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+  /* Contenu d'un onglet actif */
+  input[name*="tab"]:checked + label + .tab-content {
+   z-index: 2;
+   opacity: 1;
+   transition: all 0.35s;
+  }
+}
