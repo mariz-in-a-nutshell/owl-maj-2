@@ -550,7 +550,7 @@ gap:20px;
 
 /* bouton fiche perso */
 
-.field-fiche-de-personnage a {
+.contactPOST_OWL .field-fiche-de-personnage a {
 display: inline-block;
     width: 46px;
     height: 40px;
@@ -559,7 +559,7 @@ display: inline-block;
     border-radius:6px;
 }
 
-.field-fiche-de-personnage a:before {
+.contactPOST_OWL .field-fiche-de-personnage a:before {
   content:'';
   background-image:url('https://zupimages.net/up/24/47/dcjr.png');
   width:46px;
@@ -568,7 +568,7 @@ display: inline-block;
   display:block;
 }
 
-.field-fiche-de-personnage a:hover, .field-espace-personnel a:hover,
+.contactPOST_OWL .field-fiche-de-personnage a:hover, .contactPOST_OWL .field-espace-personnel a:hover,
 .contactPOST_OWL .profile-icon:hover{
     box-shadow: 0px 0px 6px 3px var(--main-light-beige);
       border-radius:6px;
@@ -576,7 +576,7 @@ display: inline-block;
 
 /* bouton espace personnel */
 
-.field-espace-personnel a {
+.contactPOST_OWL .field-espace-personnel a {
 display: inline-block;
     width: 36px;
     height: 40px;
@@ -585,7 +585,7 @@ display: inline-block;
     border-radius:6px;
 }
 
-.field-espace-personnel a:before {
+.contactPOST_OWL .field-espace-personnel a:before {
   content:'';
   background-image:url('https://zupimages.net/up/24/47/ti5v.png');
   width:36px;
@@ -1687,7 +1687,7 @@ width:100%;
 
 /* Description forum */
 
-.descFOR_catOWL, .desc_profil_ntm {
+.descFOR_catOWL {
   color:var(--main-text-beige);
   height:51px;
   padding:0 10px;
