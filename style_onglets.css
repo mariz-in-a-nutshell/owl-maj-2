@@ -120,13 +120,13 @@
     width:50%;
   }
 
-  .block_small_ORG .bloc_stat_ORG {
+  .bloc_stat_ORG {
     background:var(--main-bg-color);
     border-radius:6px;
     padding:10px;
   }
 
-  .block_small_ORG .bloc_stat_ORG span {
+  .bloc_stat_ORG span {
     color:var(--main-red);
     font-weight:700;
     display:inline-block;
