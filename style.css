@@ -241,11 +241,11 @@ input[type="submit"][class^="ion-"]:before, .button[class^="ion-"]:before, .butt
 
 /* Admin */
 
-.membre_OWL#Admin {background: var(--red-opacity);}
-.membre_OWL#Admin .gauche_membre_OWL, .membre_OWL#Admin .droite_membre_OWL {border:1px solid var(--main-red);}
-.membre_OWL#Admin .pseudo_membre_OWL span, .membre_OWL#Admin .pseudo_membre_OWL {color:var(--main-red)!important;}
-.membre_OWL#Admin .more_membre_OWL span:first-of-type {border-left:1px solid var(--main-red);}
-.membre_OWL#Admin .admin_membre_OWL {color:var(--main-red);font-size:12px;font-style:italic;display:inline-block;margin-bottom: -10px;}
+.membre_OWL#La_20Maire {background: var(--red-opacity);}
+.membre_OWL#La_20Maire .gauche_membre_OWL, .membre_OWL#La_20Maire .droite_membre_OWL {border:1px solid var(--main-red);}
+.membre_OWL#La_20Mairen .pseudo_membre_OWL span, .membre_OWL#La_20Maire .pseudo_membre_OWL {color:var(--main-red)!important;}
+.membre_OWL#La_20Maire .more_membre_OWL span:first-of-type {border-left:1px solid var(--main-red);}
+.membre_OWL#La_20Maire .admin_membre_OWL {color:var(--main-red);font-size:12px;font-style:italic;display:inline-block;margin-bottom: -10px;}
 .admin_membre_OWL {display:none;}
 
 /* Un membre */
