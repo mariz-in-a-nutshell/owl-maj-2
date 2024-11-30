@@ -1,0 +1,21 @@
+.corWIKI {background-color:white;margin:0.5%;width:100%;border-radius:5px;padding:5%;display:flex;align-self: auto;font-family:Arial, sans-serif;color:black;} 
+.coWIKI a{color:#447ff5!important;transition:all 0s;}.corWIKI a:hover {text-decoration:underline!important;color:#447ff5;}
+.corWIKI a:visited,.corWIKI a:link{color:#447ff5!important;}
+.wikiSOMMAIRE {width:18%;margin-top:5%;display: block;align-self: auto;}
+.wikiSOMMAIRE div {position:sticky;position:-webkit-sticky;top:150px;}
+.wikiFICHE {width :80%;display:block;align-self: auto;padding-left:2%;font-size:14px;}
+.wikiSOMMAIRE a{line-height:20px;font-size:14px;} 
+.corWIKI h1 {font-size: 2.5em;font-family:'Times';color:black;display:block;padding-bottom:10px;border-bottom:1px solid #a2a9b1!important; color:black;font-weight:900;}
+.corWIKI h2 {font-size: 2em;font-family:'Times';color:black;display:block;padding:10px 0 10px 0;border-bottom:1px solid #a2a9b1!important;width:100%;}
+.corWIKI h3 {width:100%;font-size: 1.5em;font-family:'Arial', sans-serif;display:block;padding:10px 0 10px 0;border-bottom:1px solid #a2a9b1!important;font-weight:600;color:black;}
+.corWIKI h4 {width:100%;font-size: 1em;font-family:'Arial', sans-serif;display:block;padding:5px 0 5px 0;border-bottom:0.5px solid #a2a9b1!important;font-weight:600;color:black;}
+.titSOMMAIRE{font-size: 1.8rem;font-family:sans-serif;display:inline-block;padding-bottom:10px;border-bottom:1px solid #eaecf0;top:150px;font-weight:600;width:100%;}
+.wikiCARD {background-color:white;float:right;width:25em;height:100px;border:1px solid #a2a9b1;padding:10px;display:block;margin:0 0 20px 20px;height:auto;}
+.wikiCARD-entete {background-image: url(//upload.wikimedia.org/wikipedia/commons/e/ea/Picto_infobox_cinema.png);background-color: #09C8BD;color: #000000;
+background-position: right center;background-repeat: no-repeat;height: 45px;width: 100%;font-weight: bold;text-align: center;font-size: 1.4em;line-height: 1.1;margin-bottom: 10px;}
+.wikiCARD-entete > div {display: table-cell;vertical-align: middle;padding: 12px;display:inline-block;}
+.wikiCARD img {max-width:100%;height:auto;margin:auto;display:block;}
+.wikiCARD .wiki-photo-credits {display:inline-block;text-align:center;font-size:10px;width:100%;}
+.wikiCARD table caption {color: #000000;text-align: center;background-color: #09C8BD;margin: 0 0 5px 0;padding: 4px;font-weight:700;}
+.wikiCARD table {display:table; width: 100%;margin: 5px 0;table-layout: fixed;border-collapse: collapse;text-align:left;font-size:12px;}
+.wikiCARD table th {vertical-align: super;width: 11em;max-width: 140px;word-wrap: normal;}
